@@ -1,3 +1,31 @@
 {
-  "settingsInheritedFrom": "MendDemo-josh/whitesource-config@main"
+  "scanSettings": {
+    "configMode": "LOCAL",
+    "configExternalURL": "",
+    "baseBranches": []
+  },
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": false,
+    "baseBranches": [],
+    "snippetSize": 10
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true,
+    "strictMode": "warning"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+    },
+  "remediateSettings": {
+    "enableRenovate": true,
+      "extends": [
+        "config:recommended"
+        ]
+    }
+  }
 }
