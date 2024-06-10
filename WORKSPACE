@@ -37,11 +37,11 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 # External dependency: Google Flags; has Bazel build already.
 http_archive(
     name = "com_github_gflags_gflags",
-    sha256 = "6e16c8bc91b1310a44f3965e616383dbda48f83e8c1eaa2370a215057b00cabe",
-    strip_prefix = "gflags-77592648e3f3be87d6c7123eb81cbad75f9aef5a",
+    sha256 = "2c3c773556c1d65f370d3fc924fb744a43cea765ed594bc103fbee492cf811ff",
+    strip_prefix = "gflags-03a4842c9c6aaef438d7bf0c84e8a62c8064992b",
     urls = [
-        "https://mirror.bazel.build/github.com/gflags/gflags/archive/77592648e3f3be87d6c7123eb81cbad75f9aef5a.tar.gz",
-        "https://github.com/gflags/gflags/archive/77592648e3f3be87d6c7123eb81cbad75f9aef5a.tar.gz",
+        "https://mirror.bazel.build/github.com/gflags/gflags/archive/03a4842c9c6aaef438d7bf0c84e8a62c8064992b.tar.gz",
+        "https://github.com/gflags/gflags/archive/03a4842c9c6aaef438d7bf0c84e8a62c8064992b.tar.gz",
     ],
 )
 
