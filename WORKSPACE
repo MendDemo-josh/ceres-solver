@@ -80,9 +80,9 @@ cc_library(
 # External dependency: Google Benchmark; has no Bazel build.
 http_archive(
     name = "com_github_google_benchmark",
-    urls = ["https://github.com/google/benchmark/archive/56f52ee228783547f544d9ac4a533574b9010e3f.zip"],
-    sha256 = "8c1c6e90cd320b07504fabb86400f390faff2e599183ebd9396908817968ae79",
-    strip_prefix = "benchmark-56f52ee228783547f544d9ac4a533574b9010e3f",
+    urls = ["https://github.com/google/benchmark/archive/c2146397ac69e6589a50f6b4fc6a7355669caed5.zip"],
+    sha256 = "89b5606eca742ac527e30f5c878e15dee2b8538284a65cac73adaa6e2a5514e1",
+    strip_prefix = "benchmark-c2146397ac69e6589a50f6b4fc6a7355669caed5",
     build_file_content =
 """
 cc_library(
